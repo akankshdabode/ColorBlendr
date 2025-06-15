@@ -129,7 +129,7 @@ function ColorMixer() {
       )}
 
       <div className="relative backdrop-blur-xl bg-white/30 border border-white/40 rounded-xl shadow-xl sm:p-8  p-4 max-w-3xl w-full sm:w-[600px] z-10">
-        <h1 className="text-xl md:text-3xl font-bold mb-4 sm:mb-6 text-gray-800">Mix Your Colors</h1>
+        <h1 className="text-xl md:text-3xl   font-bold mb-4 sm:mb-6 text-gray-800">Mix Your Colors</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
           {colorInputs.map((color, i) => (
