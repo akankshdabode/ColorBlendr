@@ -116,13 +116,13 @@ function ColorMixer() {
 
   return (
     <div
-      className="min-h-screen flex items-center justify-center p-4 sm:-8 relative overflow-hidden transition-colors duration-1000"
+      className="min-h-screen flex   items-center justify-center p-4 sm:-8 relative overflow-hidden transition-colors duration-1000"
       style={{
         backgroundColor: !showSky ? "#fff" : "transparent",
         backgroundImage: !showSky ? bgGradient : "none",
       }}
     >
-      {showSky && (
+       {showSky && (
         <>
           <div className="absolute inset-0 bg-gradient-to-b from-sky-300 to-white z-0"></div>
         </>
